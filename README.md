@@ -1,5 +1,9 @@
 # Hedwig
 
+[![Build Status](https://travis-ci.org/jaredhoyt/hedwig.svg)](https://travis-ci.org/jaredhoyt/hedwig)
+[![Code Climate](https://codeclimate.com/github/jaredhoyt/hedwig/badges/gpa.svg)](https://codeclimate.com/github/jaredhoyt/hedwig)
+[![Test Coverage](https://codeclimate.com/github/jaredhoyt/hedwig/badges/coverage.svg)](https://codeclimate.com/github/jaredhoyt/hedwig)
+
 Hedwig is an API wrapper for [TripAdvisor's Content API](https://developer-tripadvisor.com/content-api/).
 
 ## Installation
