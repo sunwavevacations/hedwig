@@ -1,9 +1,16 @@
-require 'faraday'
+require 'hedwig/client'
 require 'hedwig/configuration'
+require 'hedwig/errors'
+require 'hedwig/response'
+require 'hedwig/request'
 require 'hedwig/version'
 
 module Hedwig
-  def self.configuration
+  def self.client
+    @client ||= Client.new
+  end
+
+  def self.config
     @configuration ||= Configuration.new
   end
 

@@ -3,11 +3,29 @@ module Hedwig
 
   # HTTP errors
   class HttpError < Error; end
-  class TimeoutError < HttpError; end
-  class ResourceNotFound < HttpError; end
   class ServerError < HttpError; end
 
-  # Client errors
-  class ClientError < Error; end
-  class AccessDenied < ClientError; end
+  # Service errors
+  class ServiceError < Error
+    attr_reader :error
+
+    def initialize(response_body = {})
+      @error = response_body.fetch('error', {})
+    end
+
+    def message
+      error['message']
+    end
+
+    def code
+      error['code']
+    end
+
+    def type
+      error['type']
+    end
+  end
+
+  class AccessDenied < ServiceError; end
+  class ResourceNotFound < ServiceError; end
 end
