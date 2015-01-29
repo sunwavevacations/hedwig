@@ -1,6 +1,7 @@
 # Hedwig
 
 [![Build Status](https://travis-ci.org/jaredhoyt/hedwig.svg)](https://travis-ci.org/jaredhoyt/hedwig)
+[![Dependency Status](https://gemnasium.com/jaredhoyt/hedwig.svg)](https://gemnasium.com/jaredhoyt/hedwig)
 [![Code Climate](https://codeclimate.com/github/jaredhoyt/hedwig/badges/gpa.svg)](https://codeclimate.com/github/jaredhoyt/hedwig)
 [![Test Coverage](https://codeclimate.com/github/jaredhoyt/hedwig/badges/coverage.svg)](https://codeclimate.com/github/jaredhoyt/hedwig)
 
