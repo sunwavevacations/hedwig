@@ -1,0 +1,815 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/map/42.33141,-71.099396/attractions?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sat, 31 Jan 2015 22:29:44 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sat, 31 Jan 2015 22:29:44 GMT
+      content-length:
+      - '25105'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d3546275-m23924-Diablo_Glass_School-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Classes/Workshops",
+                  "name": "classes/workshops"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d3546275-Reviews-m23924-Diablo_Glass_School-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "3546275",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d3546275-m23924-Diablo_Glass_School-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3546275?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "123 Terrace Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "123 Terrace Street, Boston, MA 02120"
+              },
+              "wikipedia_info": null,
+              "distance": ".23",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "num_reviews": "2",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Diablo Glass School",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "south",
+              "longitude": "-71.09824",
+              "rating": "4.5",
+              "latitude": "42.32813",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#142 of 218 activities in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "218",
+                "ranking": "142"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d5831233-m23924-The_Squealing_Pig_Boston-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Bar/ Clubs",
+                  "name": "bar/ clubs"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d5831233-Reviews-m23924-The_Squealing_Pig_Boston-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "5831233",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d5831233-m23924-The_Squealing_Pig_Boston-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/5831233?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "134 Smith St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "134 Smith St, Boston, MA 02120"
+              },
+              "wikipedia_info": null,
+              "distance": ".27",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "nightlife",
+                  "localized_name": "Nightlife"
+                }
+              ],
+              "num_reviews": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-23924-5.png",
+              "name": "The Squealing Pig Boston",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10205",
+              "rating": "3.0",
+              "latitude": "42.334824",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#68 of 147 nightlife in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "147",
+                "ranking": "68"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d5842367-m23924-Mission_Bar_Grill-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Bar/ Clubs",
+                  "name": "bar/ clubs"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d5842367-Reviews-m23924-Mission_Bar_Grill-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "5842367",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d5842367-m23924-Mission_Bar_Grill-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/5842367?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "724 Huntington Ave",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115-6313",
+                "address_string": "724 Huntington Ave, Boston, MA 02115-6313"
+              },
+              "wikipedia_info": null,
+              "distance": ".34",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "nightlife",
+                  "localized_name": "Nightlife"
+                }
+              ],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Mission Bar & Grill",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10508",
+              "rating": null,
+              "latitude": "42.333965",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d5845923-m23924-Penguin_Pizza-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Bar/ Clubs",
+                  "name": "bar/ clubs"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d5845923-Reviews-m23924-Penguin_Pizza-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "5845923",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d5845923-m23924-Penguin_Pizza-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/5845923?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "735 Huntington Ave",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115",
+                "address_string": "735 Huntington Ave, Boston, MA 02115"
+              },
+              "wikipedia_info": null,
+              "distance": ".35",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "nightlife",
+                  "localized_name": "Nightlife"
+                }
+              ],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Penguin Pizza",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10515",
+              "rating": null,
+              "latitude": "42.33405",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d108823-m23924-Isabella_Stewart_Gardner_Museum-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Art Museums",
+                  "name": "art museums"
+                },
+                {
+                  "localized_name": "Gardens",
+                  "name": "gardens"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d108823-Reviews-m23924-Isabella_Stewart_Gardner_Museum-Boston_Massachusetts.html",
+              "percent_recommended": 82,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "108823",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d108823-m23924-Isabella_Stewart_Gardner_Museum-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/108823?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "25 Evans Way",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115",
+                "address_string": "25 Evans Way, Boston, MA 02115"
+              },
+              "wikipedia_info": {
+                "pageid": "376892",
+                "language": "en",
+                "url": "http://en.wikipedia.org/w/index.php?curid=376892"
+              },
+              "distance": ".47",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "nature_parks",
+                  "localized_name": "Nature and Parks"
+                },
+                {
+                  "name": "museums",
+                  "localized_name": "Museums"
+                },
+                {
+                  "name": "attractions",
+                  "localized_name": "Attractions"
+                }
+              ],
+              "num_reviews": "961",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Isabella Stewart Gardner Museum",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09901",
+              "rating": "4.5",
+              "latitude": "42.33815",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#23 of 157 attractions in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "157",
+                "ranking": "23"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d105257-m23924-Museum_of_Fine_Arts-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Art Museums",
+                  "name": "art museums"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d105257-Reviews-m23924-Museum_of_Fine_Arts-Boston_Massachusetts.html",
+              "percent_recommended": 96,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "105257",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d105257-m23924-Museum_of_Fine_Arts-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/105257?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "465 Huntington Ave",
+                "street2": "Avenue of the Arts",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115-5597",
+                "address_string": "465 Huntington Ave Avenue of the Arts, Boston, MA 02115-5597"
+              },
+              "wikipedia_info": null,
+              "distance": ".60",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_TM-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Attractions"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "museums",
+                  "localized_name": "Museums"
+                },
+                {
+                  "name": "attractions",
+                  "localized_name": "Attractions"
+                }
+              ],
+              "num_reviews": "3012",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Museum of Fine Arts",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northeast",
+              "longitude": "-71.09389",
+              "rating": "4.5",
+              "latitude": "42.33905",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1 of 157 attractions in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "157",
+                "ranking": "1"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4187595-m23924-Brendan_Behan_Pub-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Bar/ Clubs",
+                  "name": "bar/ clubs"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d4187595-Reviews-m23924-Brendan_Behan_Pub-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4187595",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4187595-m23924-Brendan_Behan_Pub-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4187595?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "378 Centre Street, Jamaica Plain",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02130",
+                "address_string": "378 Centre Street, Jamaica Plain, Boston, MA 02130"
+              },
+              "wikipedia_info": null,
+              "distance": ".82",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "nightlife",
+                  "localized_name": "Nightlife"
+                }
+              ],
+              "num_reviews": "2",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-23924-5.png",
+              "name": "Brendan Behan Pub",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "southwest",
+              "longitude": "-71.10932",
+              "rating": "3.0",
+              "latitude": "42.32217",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#70 of 147 nightlife in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "147",
+                "ranking": "70"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d1733594-m23924-EZ_Pedaler_Electric_Bike_Tours-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Bike tours",
+                  "name": "bike tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d1733594-Reviews-m23924-EZ_Pedaler_Electric_Bike_Tours-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "1733594",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d1733594-m23924-EZ_Pedaler_Electric_Bike_Tours-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/1733594?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "36 Warren St",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02126",
+                "address_string": "36 Warren St, Boston, MA 02126"
+              },
+              "wikipedia_info": null,
+              "distance": ".84",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "outdoor_activities",
+                  "localized_name": "Outdoor Activities"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                },
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                }
+              ],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "EZ Pedaler Electric Bike Tours",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "east",
+              "longitude": "-71.08317",
+              "rating": null,
+              "latitude": "42.32951",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d147228-m23924-The_Fens-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Nature/ Wildlife Areas",
+                  "name": "nature/ wildlife areas"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d147228-Reviews-m23924-The_Fens-Boston_Massachusetts.html",
+              "percent_recommended": 100,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "147228",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d147228-m23924-The_Fens-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/147228?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Park Drive",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "Park Drive, Boston, MA 02215"
+              },
+              "wikipedia_info": null,
+              "distance": ".85",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "nature_parks",
+                  "localized_name": "Nature and Parks"
+                },
+                {
+                  "name": "attractions",
+                  "localized_name": "Attractions"
+                }
+              ],
+              "num_reviews": "8",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "The Fens",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.10269",
+              "rating": "4.5",
+              "latitude": "42.34341",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#79 of 157 attractions in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "157",
+                "ranking": "79"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d606242-m23924-Blick_Art_Materials-Boston_Massachusetts.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Specialty Shops",
+                  "name": "specialty shops"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g60745-d606242-Reviews-m23924-Blick_Art_Materials-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "606242",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d606242-m23924-Blick_Art_Materials-Boston_Massachusetts.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/606242?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "401 Park Drive",
+                "street2": "Landmark Center, Fenway",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "401 Park Drive Landmark Center, Fenway, Boston, MA 02215"
+              },
+              "wikipedia_info": null,
+              "distance": ".88",
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "shopping",
+                  "localized_name": "Shopping"
+                }
+              ],
+              "num_reviews": "4",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-23924-5.png",
+              "name": "Blick Art Materials",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.10265",
+              "rating": "3.5",
+              "latitude": "42.34396",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#18 of 82 shopping in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "82",
+                "ranking": "18"
+              }
+            }
+          ],
+          "paging": {
+            "previous": null,
+            "skipped": "0",
+            "results": "10",
+            "next": null,
+            "total_results": "10"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 31 Jan 2015 22:29:47 GMT
+recorded_with: VCR 2.9.3

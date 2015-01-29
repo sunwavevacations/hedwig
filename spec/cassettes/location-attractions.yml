@@ -1,0 +1,970 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/location/150807/attractions?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sat, 31 Jan 2015 21:38:30 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sat, 31 Jan 2015 21:38:30 GMT
+      content-length:
+      - '31110'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d3909552-m23924-Canada_Transfers_Private_Tours-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Private tours",
+                  "name": "private tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d3909552-Reviews-m23924-Canada_Transfers_Private_Tours-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "3909552",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d3909552-m23924-Canada_Transfers_Private_Tours-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3909552?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Av Nader Edificio Marruecos",
+                "street2": "Mza 3 , Lote 22 SM 2",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Av Nader Edificio Marruecos Mza 3 , Lote 22 SM 2, Cancun 77500 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "633",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Canada Transfers - Private Tours",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.82389",
+              "latitude": "21.1683",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#1 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "1"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d1894238-m23924-Can_Cook_in_Cancun-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Cooking classes",
+                  "name": "cooking classes"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d1894238-Reviews-m23924-Can_Cook_in_Cancun-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "1894238",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d1894238-m23924-Can_Cook_in_Cancun-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/1894238?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": null,
+                "street2": null,
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77560",
+                "address_string": "Cancun 77560 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [],
+              "num_reviews": "579",
+              "subcategory": [
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                },
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "food_drink",
+                  "localized_name": "Food and Drink"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Can Cook in Cancun",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.841515",
+              "latitude": "21.119686",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#2 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "2"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d657050-m23924-Selvatica-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Tours",
+                  "name": "tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d657050-Reviews-m23924-Selvatica-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 98,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "657050",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d657050-m23924-Selvatica-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/657050?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Avenida Tulum 269",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Avenida Tulum 269, Cancun 77500 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "3999",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Selvatica",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-87.07324",
+              "latitude": "20.871857",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#3 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "3"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d2352514-m23924-Cancun_Scuba_Center-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Scuba & snorkelling",
+                  "name": "scuba & snorkelling"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d2352514-Reviews-m23924-Cancun_Scuba_Center-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "2352514",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d2352514-m23924-Cancun_Scuba_Center-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/2352514?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd. Kukulcan Km. 6.5, Beach of Dos",
+                "street2": "Playas Hotel",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd. Kukulcan Km. 6.5, Beach of Dos Playas Hotel, Cancun 77500 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "325",
+              "subcategory": [
+                {
+                  "name": "boat_tours_water_sports",
+                  "localized_name": "Boat tours & water sports"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                },
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "outdoor_activities",
+                  "localized_name": "Outdoor Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Cancun Scuba Center",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "0.0",
+              "latitude": "0.0",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#4 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "4"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d3158275-m23924-Jetpack_Adventures-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Water sports",
+                  "name": "water sports"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d3158275-Reviews-m23924-Jetpack_Adventures-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "3158275",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d3158275-m23924-Jetpack_Adventures-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3158275?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd Kukulcan km 12.5 La isla Shopping Village",
+                "street2": "Maroma Beach, Playa Del Carmen",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd Kukulcan km 12.5 La isla Shopping Village Maroma Beach, Playa Del Carmen, Cancun 77500 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "339",
+              "subcategory": [
+                {
+                  "name": "boat_tours_water_sports",
+                  "localized_name": "Boat tours & water sports"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                },
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "outdoor_activities",
+                  "localized_name": "Outdoor Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Jetpack Adventures",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.76524",
+              "latitude": "21.11096",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#5 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "5"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d2012626-m23924-360_Surf_School-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Surfing & windsurfing",
+                  "name": "surfing & windsurfing"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d2012626-Reviews-m23924-360_Surf_School-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "2012626",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d2012626-m23924-360_Surf_School-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/2012626?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd. Kukulkan km 9.5",
+                "street2": "Playa Chac Mool, (Street Side) Next to the Surfin Burito and Next to la Natura. Close to Condos Porto Fino",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd. Kukulkan km 9.5 Playa Chac Mool, (Street Side) Next to the Surfin Burito and Next to la Natura. Close to Condos Porto Fino, Cancun 77500 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "275",
+              "subcategory": [
+                {
+                  "name": "boat_tours_water_sports",
+                  "localized_name": "Boat tours & water sports"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                },
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "outdoor_activities",
+                  "localized_name": "Outdoor Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "360 Surf School",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.74817",
+              "latitude": "21.129833",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#6 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "6"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d2534666-m23924-Cancun_Avatays_Shuttle_and_Tours-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Tours",
+                  "name": "tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d2534666-Reviews-m23924-Cancun_Avatays_Shuttle_and_Tours-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 98,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "2534666",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d2534666-m23924-Cancun_Avatays_Shuttle_and_Tours-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/2534666?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Calle Estrella #9",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77506",
+                "address_string": "Calle Estrella #9, Cancun 77506 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "561",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Cancun Avatays Shuttle and Tours",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.84517",
+              "latitude": "21.14707",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#7 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "7"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d1752471-m23924-Alma_s_LDS_Tours-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Tours",
+                  "name": "tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d1752471-Reviews-m23924-Alma_s_LDS_Tours-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 98,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "1752471",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d1752471-m23924-Alma_s_LDS_Tours-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/1752471?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "",
+                "address_string": "Cancun Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "511",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Alma's LDS Tours",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-88.5695",
+              "latitude": "20.683167",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#8 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "8"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d1986529-m23924-Entertainment_Plus-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Tours",
+                  "name": "tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d1986529-Reviews-m23924-Entertainment_Plus-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 96,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "1986529",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d1986529-m23924-Entertainment_Plus-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/1986529?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "",
+                "address_string": "Cancun Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "2832",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Entertainment Plus",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "0.0",
+              "latitude": "0.0",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#9 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "9"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d3673199-m23924-Cancun_Best_Discounts_Day_Tours-Cancun_Yucatan_Peninsula.html",
+              "attraction_types": [
+                {
+                  "localized_name": "Tours",
+                  "name": "tours"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Attraction_Review-g150807-d3673199-Reviews-m23924-Cancun_Best_Discounts_Day_Tours-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 99,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "3673199",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d3673199-m23924-Cancun_Best_Discounts_Day_Tours-Cancun_Yucatan_Peninsula.html",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3673199?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "48 Calle Tauch, SM 25, M 3",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77509",
+                "address_string": "48 Calle Tauch, SM 25, M 3, Cancun 77509 Mexico"
+              },
+              "wikipedia_info": null,
+              "category": {
+                "name": "attraction",
+                "localized_name": "Attraction"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "141",
+              "subcategory": [
+                {
+                  "name": "sightseeing_tours",
+                  "localized_name": "Sightseeing Tours"
+                },
+                {
+                  "name": "activities",
+                  "localized_name": "Activities"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Cancun Best Discounts Day Tours",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.83135",
+              "latitude": "21.16093",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#10 of 290 activities in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "290",
+                "ranking": "10"
+              }
+            }
+          ],
+          "paging": {
+            "previous": null,
+            "skipped": "0",
+            "results": "10",
+            "next": null,
+            "total_results": "10"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 31 Jan 2015 21:38:36 GMT
+recorded_with: VCR 2.9.3

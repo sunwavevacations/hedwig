@@ -1,0 +1,662 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/map/42.33141,-71.099396/restaurants?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sat, 31 Jan 2015 22:40:52 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sat, 31 Jan 2015 22:40:52 GMT
+      content-length:
+      - '20636'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4225110-m23924-Chacho_s_Pizza_Subs-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4225110-Reviews-m23924-Chacho_s_Pizza_Subs-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4225110",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4225110-m23924-Chacho_s_Pizza_Subs-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4225110?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1502 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1502 Tremont St, Boston, MA 02120"
+              },
+              "distance": ".06",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Chacho's Pizza & Subs",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09922",
+              "rating": null,
+              "latitude": "42.33227",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d3398229-m23924-Wan_Convenience_Store-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d3398229-Reviews-m23924-Wan_Convenience_Store-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "3398229",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d3398229-m23924-Wan_Convenience_Store-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3398229?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1508 Tremont St",
+                "street2": "between Burney St & Sewall St, Roxbury Crossing",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1508 Tremont St between Burney St & Sewall St, Roxbury Crossing, Boston, MA 02120"
+              },
+              "distance": ".06",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Wan Convenience Store",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09938",
+              "rating": "5.0",
+              "latitude": "42.33229",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1,252 of 2,852 restaurants in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "1893",
+                "ranking": "1252"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4198412-m23924-Crispy_Dough_Pizzeria-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4198412-Reviews-m23924-Crispy_Dough_Pizzeria-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4198412",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4198412-m23924-Crispy_Dough_Pizzeria-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4198412?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1514 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1514 Tremont St, Boston, MA 02120"
+              },
+              "distance": ".06",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-23924-5.png",
+              "name": "Crispy Dough Pizzeria",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.0995",
+              "rating": "3.0",
+              "latitude": "42.33234",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1,778 of 2,852 restaurants in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "1893",
+                "ranking": "1778"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d2080094-m23924-Lilly_s_Gourmet_Pasta_Express-Boston_Massachusetts.html",
+              "cuisine": [
+                {
+                  "name": "italian",
+                  "localized_name": "Italian"
+                },
+                {
+                  "name": "pasta",
+                  "localized_name": "Pasta"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d2080094-Reviews-m23924-Lilly_s_Gourmet_Pasta_Express-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "2080094",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d2080094-m23924-Lilly_s_Gourmet_Pasta_Express-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/2080094?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1528 Tremont St",
+                "street2": "Mission Hill",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120-2928",
+                "address_string": "1528 Tremont St Mission Hill, Boston, MA 02120-2928"
+              },
+              "distance": ".08",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "sit_down",
+                  "localized_name": "Sit down"
+                }
+              ],
+              "num_reviews": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-23924-5.png",
+              "name": "Lilly's Gourmet Pasta Express",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09998",
+              "rating": "4.0",
+              "latitude": "42.332474",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1,689 of 2,852 restaurants in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "1893",
+                "ranking": "1689"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d5223032-m23924-Diploma_Mill-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d5223032-Reviews-m23924-Diploma_Mill-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "5223032",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d5223032-m23924-Diploma_Mill-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/5223032?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "139 St. Alphonsus Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "139 St. Alphonsus Street, Boston, MA 02120"
+              },
+              "distance": ".13",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Diploma Mill",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10158",
+              "rating": null,
+              "latitude": "42.33244",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4161000-m23924-Sushi_Station-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4161000-Reviews-m23924-Sushi_Station-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4161000",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4161000-m23924-Sushi_Station-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4161000?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1562 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1562 Tremont St, Boston, MA 02120"
+              },
+              "distance": ".15",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Sushi Station",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10155",
+              "rating": null,
+              "latitude": "42.33292",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4907918-m23924-Yuet_Sing_Seafood-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4907918-Reviews-m23924-Yuet_Sing_Seafood-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4907918",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4907918-m23924-Yuet_Sing_Seafood-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4907918?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "70 Smith Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "70 Smith Street, Boston, MA 02120"
+              },
+              "distance": ".17",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Yuet Sing Seafood",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09906",
+              "rating": null,
+              "latitude": "42.333824",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4228277-m23924-Subway-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4228277-Reviews-m23924-Subway-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4228277",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4228277-m23924-Subway-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4228277?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1578 Tremont St",
+                "street2": "Ste 1",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1578 Tremont St Ste 1, Boston, MA 02120"
+              },
+              "distance": ".21",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "sit_down",
+                  "localized_name": "Sit down"
+                }
+              ],
+              "num_reviews": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Subway",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10249",
+              "rating": "5.0",
+              "latitude": "42.33341",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1,153 of 2,852 restaurants in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "1893",
+                "ranking": "1153"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4593501-m23924-Butterfly_Coffee-Boston_Massachusetts.html",
+              "cuisine": [],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d4593501-Reviews-m23924-Butterfly_Coffee-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4593501",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4593501-m23924-Butterfly_Coffee-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4593501?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1420 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1420 Tremont St, Boston, MA 02120"
+              },
+              "distance": ".22",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [],
+              "num_reviews": "0",
+              "rating_image_url": null,
+              "name": "Butterfly Coffee",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "east",
+              "longitude": "-71.09507",
+              "rating": null,
+              "latitude": "42.331524",
+              "ranking_data": null
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d3467482-m23924-The_Crossing_Bar-Boston_Massachusetts.html",
+              "cuisine": [
+                {
+                  "name": "american",
+                  "localized_name": "American"
+                }
+              ],
+              "web_url": "http://www.tripadvisor.com/Restaurant_Review-g60745-d3467482-Reviews-m23924-The_Crossing_Bar-Boston_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "3467482",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d3467482-m23924-The_Crossing_Bar-Boston_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3467482?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1592 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": null,
+                "address_string": "1592 Tremont St, Boston, MA"
+              },
+              "distance": ".23",
+              "category": {
+                "name": "restaurant",
+                "localized_name": "Restaurant"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "sit_down",
+                  "localized_name": "Sit down"
+                }
+              ],
+              "num_reviews": "2",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-23924-5.png",
+              "name": "The Crossing Bar",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.102875",
+              "rating": "4.0",
+              "latitude": "42.333527",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#1,523 of 2,852 restaurants in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "1893",
+                "ranking": "1523"
+              }
+            }
+          ],
+          "paging": {
+            "previous": null,
+            "skipped": "0",
+            "results": "10",
+            "next": null,
+            "total_results": "10"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 31 Jan 2015 22:40:54 GMT
+recorded_with: VCR 2.9.3

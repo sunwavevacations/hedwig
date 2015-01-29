@@ -1,0 +1,249 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/location/89575?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=3147
+      expires:
+      - Sat, 31 Jan 2015 01:13:13 GMT
+      date:
+      - Sat, 31 Jan 2015 00:20:46 GMT
+      content-length:
+      - '6671'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d89575-m23924-Boston_Harbor_Hotel-Boston_Massachusetts.html",
+          "reviews": [
+            {
+              "id": "251502543",
+              "lang": "en",
+              "location_id": "89575",
+              "published_date": "2015-01-28T16:04:24-0500",
+              "rating": 3,
+              "helpful_votes": "1",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/s3.0-23924-5.png",
+              "url": "http://www.tripadvisor.com/ShowUserReviews-g60745-d89575-r251502543-Boston_Harbor_Hotel-Boston_Massachusetts.html#review251502543",
+              "trip_type": null,
+              "travel_date": null,
+              "text": "So apparently if you book this room through Hotwire, you're getting a crappy location in the hotel. The first room they put us in was behind the elevator shaft. I insisted we be moved. Later that in...",
+              "user": {
+                "username": "Lisa M",
+                "user_location": {
+                  "id": "60864",
+                  "name": "New Orleans, Louisiana"
+                }
+              },
+              "title": "Up all night with ambulance sirens.",
+              "is_machine_translated": false
+            },
+            {
+              "id": "251270620",
+              "lang": "en",
+              "location_id": "89575",
+              "published_date": "2015-01-27T11:45:23-0500",
+              "rating": 5,
+              "helpful_votes": "0",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/s5.0-23924-5.png",
+              "url": "http://www.tripadvisor.com/ShowUserReviews-g60745-d89575-r251270620-Boston_Harbor_Hotel-Boston_Massachusetts.html#review251270620",
+              "trip_type": null,
+              "travel_date": null,
+              "text": "We were married at the Boston Harbor Hotel and returned here for a third time for our anniversary - they NEVER disappoint! Even though we live about 30 minutes outside the city, we feel like we are...",
+              "user": {
+                "username": "CaitlinSmith54",
+                "user_location": {
+                  "id": "60745",
+                  "name": "Boston, Massachusetts"
+                }
+              },
+              "title": "Perfect Anniversary Weekend",
+              "is_machine_translated": false
+            },
+            {
+              "id": "251030253",
+              "lang": "en",
+              "location_id": "89575",
+              "published_date": "2015-01-26T02:57:29-0500",
+              "rating": 5,
+              "helpful_votes": "0",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/s5.0-23924-5.png",
+              "url": "http://www.tripadvisor.com/ShowUserReviews-g60745-d89575-r251030253-Boston_Harbor_Hotel-Boston_Massachusetts.html#review251030253",
+              "trip_type": null,
+              "travel_date": null,
+              "text": "We stayed here for the fourth time and find no reason to stay any place else.The hotel provides a van from the hotel to the area where we pick up the bus on race morning. The rooms a large and very...",
+              "user": {
+                "username": "Tyler P",
+                "user_location": {
+                  "id": "32655",
+                  "name": "Los Angeles, California"
+                }
+              },
+              "title": "Keeps getting better",
+              "is_machine_translated": false
+            }
+          ],
+          "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d89575-Reviews-m23924-Boston_Harbor_Hotel-Boston_Massachusetts.html",
+          "percent_recommended": 94,
+          "location_string": "Boston, Massachusetts",
+          "location_id": "89575",
+          "write_review": "http://www.tripadvisor.com/UserReview-g60745-d89575-m23924-Boston_Harbor_Hotel-Boston_Massachusetts.html",
+          "price_level": "$$$$",
+          "review_rating_count": {
+            "1": "11",
+            "2": "15",
+            "3": "42",
+            "4": "183",
+            "5": "962"
+          },
+          "address_obj": {
+            "street1": "70 Rowes Wharf",
+            "street2": "",
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "United States",
+            "postalcode": "02110",
+            "address_string": "70 Rowes Wharf, Boston, MA 02110"
+          },
+          "category": {
+            "name": "hotel",
+            "localized_name": "Hotel"
+          },
+          "subratings": [
+            {
+              "localized_name": "Location",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss5.0.gif",
+              "name": "rate_location",
+              "value": "5.0"
+            },
+            {
+              "localized_name": "Sleep Quality",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss4.5.gif",
+              "name": "rate_sleep",
+              "value": "4.5"
+            },
+            {
+              "localized_name": "Rooms",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss4.5.gif",
+              "name": "rate_room",
+              "value": "4.5"
+            },
+            {
+              "localized_name": "Service",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss5.0.gif",
+              "name": "rate_service",
+              "value": "5.0"
+            },
+            {
+              "localized_name": "Value",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss4.5.gif",
+              "name": "rate_value",
+              "value": "4.5"
+            },
+            {
+              "localized_name": "Cleanliness",
+              "rating_image_url": "http://c1.tacdn.com/img2/ratings/traveler/ss5.0.gif",
+              "name": "rate_cleanliness",
+              "value": "5.0"
+            }
+          ],
+          "trip_types": [
+            {
+              "localized_name": "Business",
+              "name": "business",
+              "value": "248"
+            },
+            {
+              "localized_name": "Couples",
+              "name": "couples",
+              "value": "448"
+            },
+            {
+              "localized_name": "Solo travel",
+              "name": "solo",
+              "value": "54"
+            },
+            {
+              "localized_name": "Family",
+              "name": "family",
+              "value": "276"
+            }
+          ],
+          "awards": [
+            {
+              "award_type": "Certificate of Excellence",
+              "year": "2014",
+              "images": {
+                "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+              },
+              "categories": [],
+              "display_name": "Certificate of Excellence 2014"
+            }
+          ],
+          "num_reviews": "1213",
+          "subcategory": [
+            {
+              "name": "hotel",
+              "localized_name": "Hotel"
+            }
+          ],
+          "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+          "name": "Boston Harbor Hotel",
+          "ancestors": [
+            {
+              "abbrv": null,
+              "level": "City",
+              "name": "Boston",
+              "location_id": "60745"
+            },
+            {
+              "abbrv": "MA",
+              "level": "State",
+              "name": "Massachusetts",
+              "location_id": "28942"
+            },
+            {
+              "abbrv": null,
+              "level": "Country",
+              "name": "United States",
+              "location_id": "191"
+            }
+          ],
+          "longitude": "-71.05025",
+          "rating": "4.5",
+          "latitude": "42.356506",
+          "photo_count": "252",
+          "ranking_data": {
+            "geo_location_id": "60745",
+            "ranking_string": "#2 of 77 hotels in Boston",
+            "geo_location_name": "Boston",
+            "ranking_out_of": "77",
+            "ranking": "2"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 31 Jan 2015 00:20:47 GMT
+recorded_with: VCR 2.9.3

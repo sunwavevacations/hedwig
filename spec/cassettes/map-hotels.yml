@@ -1,0 +1,763 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/map/42.33141,-71.099396/hotels?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sat, 31 Jan 2015 22:38:19 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sat, 31 Jan 2015 22:38:19 GMT
+      content-length:
+      - '24387'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d77638-m23924-The_Inn_at_Longwood_Medical-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d77638-Reviews-m23924-The_Inn_at_Longwood_Medical-Boston_Massachusetts.html",
+              "percent_recommended": 76,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "77638",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d77638-m23924-The_Inn_at_Longwood_Medical-Boston_Massachusetts.html",
+              "price_level": "$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/77638?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "342 Longwood Avenue",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115",
+                "address_string": "342 Longwood Avenue, Boston, MA 02115"
+              },
+              "distance": ".61",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "656",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-23924-5.png",
+              "name": "The Inn at Longwood Medical",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10668",
+              "rating": "4.0",
+              "latitude": "42.338406",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#43 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "43"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d3225572-m23924-EnVision_Hotel_Boston-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d3225572-Reviews-m23924-EnVision_Hotel_Boston-Boston_Massachusetts.html",
+              "percent_recommended": 91,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "3225572",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d3225572-m23924-EnVision_Hotel_Boston-Boston_Massachusetts.html",
+              "price_level": "$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3225572?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "81 South Huntington Ave",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02130",
+                "address_string": "81 South Huntington Ave, Boston, MA 02130"
+              },
+              "distance": ".62",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "GreenLeader",
+                  "year": "",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-23924-5.gif",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleaders/GreenLeaders_API_en_large_partner-23924-5.jpg"
+                  },
+                  "categories": [
+                    "GreenPartner"
+                  ],
+                  "display_name": "GreenLeader Partner"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "332",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "enVision Hotel Boston",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "west",
+              "longitude": "-71.111336",
+              "rating": "4.5",
+              "latitude": "42.33",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#15 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "15"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d6485213-m23924-The_Verb_Hotel-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d6485213-Reviews-m23924-The_Verb_Hotel-Boston_Massachusetts.html",
+              "percent_recommended": 93,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "6485213",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d6485213-m23924-The_Verb_Hotel-Boston_Massachusetts.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/6485213?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1271 Boylston Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "1271 Boylston Street, Boston, MA 02215"
+              },
+              "distance": ".95",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "182",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "The Verb Hotel",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.096924",
+              "rating": "4.5",
+              "latitude": "42.34505",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#13 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "13"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d4325990-m23924-Residence_Inn_Boston_Back_Bay_Fenway-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d4325990-Reviews-m23924-Residence_Inn_Boston_Back_Bay_Fenway-Boston_Massachusetts.html",
+              "percent_recommended": 93,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "4325990",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d4325990-m23924-Residence_Inn_Boston_Back_Bay_Fenway-Boston_Massachusetts.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/4325990?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "125 Brookline Avenue",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "125 Brookline Avenue, Boston, MA 02215"
+              },
+              "distance": ".98",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "GreenLeader",
+                  "year": "",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-23924-5.gif",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleaders/GreenLeaders_API_en_large_silver-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Silver level"
+                  ],
+                  "display_name": "GreenLeader Silver"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "446",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Residence Inn Boston Back Bay / Fenway",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.10024",
+              "rating": "4.5",
+              "latitude": "42.34563",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#14 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "14"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60823-d258730-m23924-Beacon_Townhouse_Inn_1023-Brookline_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60823-d258730-Reviews-m23924-Beacon_Townhouse_Inn_1023-Brookline_Massachusetts.html",
+              "percent_recommended": null,
+              "location_string": "Brookline, Massachusetts",
+              "location_id": "258730",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60823-d258730-m23924-Beacon_Townhouse_Inn_1023-Brookline_Massachusetts.html",
+              "price_level": null,
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/258730?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1023 Beacon Street",
+                "street2": "",
+                "city": "Brookline",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02446",
+                "address_string": "1023 Beacon Street, Brookline, MA 02446"
+              },
+              "distance": "1.08",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "2",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/2.0-23924-5.png",
+              "name": "Beacon Townhouse Inn 1023",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Brookline",
+                  "location_id": "60823"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.10777",
+              "rating": "2.0",
+              "latitude": "42.34572",
+              "ranking_data": {
+                "geo_location_id": "60823",
+                "ranking_string": "#3 of 3 hotels in Brookline",
+                "geo_location_name": "Brookline",
+                "ranking_out_of": "3",
+                "ranking": "3"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d94350-m23924-The_Midtown_Hotel-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d94350-Reviews-m23924-The_Midtown_Hotel-Boston_Massachusetts.html",
+              "percent_recommended": 64,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "94350",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d94350-m23924-The_Midtown_Hotel-Boston_Massachusetts.html",
+              "price_level": "$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/94350?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "220 Huntington Avenue",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115",
+                "address_string": "220 Huntington Avenue, Boston, MA 02115"
+              },
+              "distance": "1.16",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "1200",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-23924-5.png",
+              "name": "The Midtown Hotel",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northeast",
+              "longitude": "-71.08383",
+              "rating": "3.5",
+              "latitude": "42.343666",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#65 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "65"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d94372-m23924-Boston_Hotel_Buckminster-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d94372-Reviews-m23924-Boston_Hotel_Buckminster-Boston_Massachusetts.html",
+              "percent_recommended": 67,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "94372",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d94372-m23924-Boston_Hotel_Buckminster-Boston_Massachusetts.html",
+              "price_level": "$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/94372?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "645 Beacon St",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "645 Beacon St, Boston, MA 02215"
+              },
+              "distance": "1.17",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "798",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-23924-5.png",
+              "name": "Boston Hotel Buckminster",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09783",
+              "rating": "3.5",
+              "latitude": "42.34833",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#66 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "66"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d258705-m23924-Hotel_Commonwealth-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d258705-Reviews-m23924-Hotel_Commonwealth-Boston_Massachusetts.html",
+              "percent_recommended": 95,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "258705",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d258705-m23924-Hotel_Commonwealth-Boston_Massachusetts.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/258705?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "500 Commonwealth Avenue",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02215",
+                "address_string": "500 Commonwealth Avenue, Boston, MA 02215"
+              },
+              "distance": "1.22",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "2853",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Hotel Commonwealth",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "north",
+              "longitude": "-71.09526",
+              "rating": "4.5",
+              "latitude": "42.34873",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#3 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "3"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60823-d94238-m23924-Holiday_Inn_Boston_Brookline-Brookline_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60823-d94238-Reviews-m23924-Holiday_Inn_Boston_Brookline-Brookline_Massachusetts.html",
+              "percent_recommended": 56,
+              "location_string": "Brookline, Massachusetts",
+              "location_id": "94238",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60823-d94238-m23924-Holiday_Inn_Boston_Brookline-Brookline_Massachusetts.html",
+              "price_level": "$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/94238?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "1200 Beacon Street",
+                "street2": "",
+                "city": "Brookline",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02446",
+                "address_string": "1200 Beacon Street, Brookline, MA 02446"
+              },
+              "distance": "1.22",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "GreenLeader",
+                  "year": "",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-23924-5.gif",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/greenleaders/GreenLeaders_API_en_large_partner-23924-5.jpg"
+                  },
+                  "categories": [
+                    "GreenPartner"
+                  ],
+                  "display_name": "GreenLeader Partner"
+                }
+              ],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "432",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-23924-5.png",
+              "name": "Holiday Inn Boston Brookline",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Brookline",
+                  "location_id": "60823"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northwest",
+              "longitude": "-71.1164",
+              "rating": "3.5",
+              "latitude": "42.343834",
+              "ranking_data": {
+                "geo_location_id": "60823",
+                "ranking_string": "#2 of 3 hotels in Brookline",
+                "geo_location_name": "Brookline",
+                "ranking_out_of": "3",
+                "ranking": "2"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g60745-d111428-m23924-Hilton_Boston_Back_Bay-Boston_Massachusetts.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g60745-d111428-Reviews-m23924-Hilton_Boston_Back_Bay-Boston_Massachusetts.html",
+              "percent_recommended": 78,
+              "location_string": "Boston, Massachusetts",
+              "location_id": "111428",
+              "write_review": "http://www.tripadvisor.com/UserReview-g60745-d111428-m23924-Hilton_Boston_Back_Bay-Boston_Massachusetts.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/111428?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "40 Dalton St",
+                "street2": "",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02115-3123",
+                "address_string": "40 Dalton St, Boston, MA 02115-3123"
+              },
+              "distance": "1.27",
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "num_reviews": "1644",
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-23924-5.png",
+              "name": "Hilton Boston Back Bay",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Boston",
+                  "location_id": "60745"
+                },
+                {
+                  "abbrv": "MA",
+                  "level": "State",
+                  "name": "Massachusetts",
+                  "location_id": "28942"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "United States",
+                  "location_id": "191"
+                }
+              ],
+              "bearing": "northeast",
+              "longitude": "-71.08496",
+              "rating": "4.0",
+              "latitude": "42.346348",
+              "ranking_data": {
+                "geo_location_id": "60745",
+                "ranking_string": "#52 of 77 hotels in Boston",
+                "geo_location_name": "Boston",
+                "ranking_out_of": "77",
+                "ranking": "52"
+              }
+            }
+          ],
+          "paging": {
+            "previous": null,
+            "skipped": "0",
+            "results": "10",
+            "next": null,
+            "total_results": "10"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 31 Jan 2015 22:38:20 GMT
+recorded_with: VCR 2.9.3
