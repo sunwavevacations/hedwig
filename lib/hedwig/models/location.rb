@@ -49,6 +49,19 @@ module Hedwig
       alias_method :id, :location_id
       alias_method :address, :address_obj
       alias_method :rank, :ranking_data
+
+      def attractions(options = {})
+        @attrations ||= Api::Attractions.by_location(id, options)
+      end
+
+      def hotels(options = {})
+        @hotels ||= Api::Hotels.by_location(id, options)
+      end
+
+      def restaurants(options = {})
+        @restaurants ||= Api::Restaurants.by_location(id, options)
+      end
+
     end
   end
 end
