@@ -1,0 +1,196 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/location_mapper/42.33141,-71.099396?key=<TRIPADVISOR_API_KEY>-mapper&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sun, 01 Feb 2015 01:55:06 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sun, 01 Feb 2015 01:55:06 GMT
+      content-length:
+      - '4479'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "location_id": "4225110",
+              "name": "Chacho's Pizza & Subs",
+              "distance": "0.06030451901147055",
+              "bearing": "north",
+              "address_obj": {
+                "street1": "1502 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1502 Tremont St, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "3398229",
+              "name": "Wan Convenience Store",
+              "distance": "0.060957541678562904",
+              "bearing": "north",
+              "address_obj": {
+                "street1": "1508 Tremont St",
+                "street2": "between Burney St & Sewall St, Roxbury Crossing",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1508 Tremont St between Burney St & Sewall St, Roxbury Crossing, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "4198412",
+              "name": "Crispy Dough Pizzeria",
+              "distance": "0.06461403078287972",
+              "bearing": "north",
+              "address_obj": {
+                "street1": "1514 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1514 Tremont St, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "2080094",
+              "name": "Lilly's Gourmet Pasta Express",
+              "distance": "0.07951096981405031",
+              "bearing": "north",
+              "address_obj": {
+                "street1": "1528 Tremont St",
+                "street2": "Mission Hill",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120-2928",
+                "address_string": "1528 Tremont St Mission Hill, Boston, MA 02120-2928"
+              }
+            },
+            {
+              "location_id": "5223032",
+              "name": "Diploma Mill",
+              "distance": "0.13238127248071724",
+              "bearing": "northwest",
+              "address_obj": {
+                "street1": "139 St. Alphonsus Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "139 St. Alphonsus Street, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "4161000",
+              "name": "Sushi Station",
+              "distance": "0.15172835222220402",
+              "bearing": "northwest",
+              "address_obj": {
+                "street1": "1562 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1562 Tremont St, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "4907918",
+              "name": "Yuet Sing Seafood",
+              "distance": "0.16790554305860095",
+              "bearing": "north",
+              "address_obj": {
+                "street1": "70 Smith Street",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "70 Smith Street, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "4228277",
+              "name": "Subway",
+              "distance": "0.21024858470116037",
+              "bearing": "northwest",
+              "address_obj": {
+                "street1": "1578 Tremont St",
+                "street2": "Ste 1",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1578 Tremont St Ste 1, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "4593501",
+              "name": "Butterfly Coffee",
+              "distance": "0.22134456125710092",
+              "bearing": "east",
+              "address_obj": {
+                "street1": "1420 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": "02120",
+                "address_string": "1420 Tremont St, Boston, MA 02120"
+              }
+            },
+            {
+              "location_id": "3467482",
+              "name": "The Crossing Bar",
+              "distance": "0.2304189830929039",
+              "bearing": "northwest",
+              "address_obj": {
+                "street1": "1592 Tremont St",
+                "street2": null,
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "United States",
+                "postalcode": null,
+                "address_string": "1592 Tremont St, Boston, MA"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 01 Feb 2015 01:55:09 GMT
+recorded_with: VCR 2.9.3

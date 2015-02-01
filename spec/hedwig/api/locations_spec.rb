@@ -39,4 +39,19 @@ describe Hedwig::Api::Locations do
     end
   end
 
+  describe ".mapper", vcr: { cassette_name: 'locations-mapper' } do
+    let(:latitude) { 42.33141 }
+    let(:longitude) { -71.099396 }
+    let(:options) { { lang: 'en_US' } }
+    let(:merged_options) { options.merge({ key: Hedwig.config.api_key + '-mapper' }) }
+    let(:resource) { "location_mapper/#{latitude},#{longitude}" }
+
+    subject { locations.mapper(latitude, longitude, options) }
+
+    it "creates a Hedwig::Request for 'location_mapper/:latitude,:longitude?key=<api-key>-mapper'" do
+      expect(Hedwig::Request).to receive(:new).with(resource, merged_options).and_call_original
+      subject
+    end
+  end
+
 end
