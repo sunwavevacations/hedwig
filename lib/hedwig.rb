@@ -15,6 +15,7 @@ module Hedwig
     autoload :Attractions, 'hedwig/api/attractions'
     autoload :Hotels,      'hedwig/api/hotels'
     autoload :Locations,   'hedwig/api/locations'
+    autoload :Methods,     'hedwig/api/methods'
     autoload :Restaurants, 'hedwig/api/restaurants'
   end
 

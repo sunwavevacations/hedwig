@@ -1,18 +1,11 @@
 module Hedwig
   module Api
     module Attractions
+      include Api::Methods
 
-      def self.by_location(id, options = {})
-        ids = Array(id).join(',')
-        response = Hedwig::Request.new("location/#{ids}/attractions", options).get
-        Hedwig::Models::Collection.new(response.body)
+      def self.resource_name
+        "attractions"
       end
-
-      def self.by_coordinates(latitude, longitude, options = {})
-        response = Hedwig::Request.new("map/#{latitude},#{longitude}/attractions", options).get
-        Hedwig::Models::Collection.new(response.body)
-      end
-
     end
   end
 end
