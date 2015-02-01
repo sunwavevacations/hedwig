@@ -3,7 +3,8 @@ module Hedwig
     module Attractions
 
       def self.by_location(id, options = {})
-        response = Hedwig::Request.new("location/#{id}/attractions", options).get
+        ids = Array(id).join(',')
+        response = Hedwig::Request.new("location/#{ids}/attractions", options).get
         Hedwig::Models::Collection.new(response.body)
       end
 

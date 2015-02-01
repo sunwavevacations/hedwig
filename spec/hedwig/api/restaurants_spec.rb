@@ -19,6 +19,16 @@ describe Hedwig::Api::Restaurants do
     it "returns a Hedwig::Models::Collection" do
       expect(subject).to be_a Hedwig::Models::Collection
     end
+
+    context "when multiple ids are passed in", vcr: { cassette_name: 'multiget-restaurants' } do
+      let(:id) { [2226812,233835,150807] }
+      let(:resource) { "location/#{id.join(',')}/restaurants" }
+
+      it "creates a multi-get request" do
+        expect(Hedwig::Request).to receive(:new).with(resource, options).and_call_original
+        subject
+      end
+    end
   end
 
   describe ".by_coordinates", vcr: { cassette_name: 'map-restaurants' } do

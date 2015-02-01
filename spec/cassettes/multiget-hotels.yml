@@ -1,0 +1,969 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tripadvisor.com/api/partner/2.0/location/2226812,233835,150807/hotels?key=<TRIPADVISOR_API_KEY>&lang=en_US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - Apache
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - text/javascript;charset=utf-8
+      vary:
+      - Accept-Encoding
+      expires:
+      - Sun, 01 Feb 2015 01:38:50 GMT
+      cache-control:
+      - max-age=0, no-cache, no-store
+      pragma:
+      - no-cache
+      date:
+      - Sun, 01 Feb 2015 01:38:50 GMT
+      content-length:
+      - '32395'
+      connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "data": [
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d154868-m23924-Le_Blanc_Spa_Resort-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d154868-Reviews-m23924-Le_Blanc_Spa_Resort-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 94,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "154868",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d154868-m23924-Le_Blanc_Spa_Resort-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/154868?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd Kukulkan Km.10 - Zona Hotelera",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd Kukulkan Km.10 - Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2015",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2015_L_R-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2015_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Luxury",
+                    "Best Service",
+                    "Romance",
+                    "Small Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "3701",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Le Blanc Spa Resort",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.752945",
+              "latitude": "21.125984",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#1 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "1"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d506374-m23924-Live_Aqua_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d506374-Reviews-m23924-Live_Aqua_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 92,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "506374",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d506374-m23924-Live_Aqua_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/506374?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Boulevard Kukulcan Km. 12.5 Zona Hotelera",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Boulevard Kukulcan Km. 12.5 Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2015",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2015_L_R-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2015_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Romance"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "4885",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Live Aqua Cancun All Inclusive",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.762245",
+              "latitude": "21.106777",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#2 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "2"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d2627483-m23924-Secrets_The_Vine_Cancun_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d2627483-Reviews-m23924-Secrets_The_Vine_Cancun_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 91,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "2627483",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d2627483-m23924-Secrets_The_Vine_Cancun_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/2627483?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Boulevard Kukulcan Km 14.5 Mza.13 Retorno del Rey Lote 38 & 38B",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Boulevard Kukulcan Km 14.5 Mza.13 Retorno del Rey Lote 38 & 38B, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2015",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2015_L_R-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2015_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Romance",
+                    "Top Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                }
+              ],
+              "num_reviews": "3081",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Secrets The Vine Cancun Resort & Spa",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.76947",
+              "latitude": "21.090189",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#3 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "3"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g187309-d233835-m23924-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g187309-d233835-Reviews-m23924-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html",
+              "percent_recommended": 93,
+              "location_string": "Munich, Upper Bavaria, Bavaria",
+              "location_id": "233835",
+              "write_review": "http://www.tripadvisor.com/UserReview-g187309-d233835-m23924-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/233835?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Neuturmstrasse 1",
+                "street2": "",
+                "city": "Munich",
+                "state": "Bavaria",
+                "country": "Germany",
+                "postalcode": "80331",
+                "address_string": "Neuturmstrasse 1, 80331 Munich, Bavaria Germany"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2015",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2015_L_R-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2015_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Top Hotels",
+                    "Luxury"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "545",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-23924-5.png",
+              "name": "Mandarin Oriental, Munich",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "City",
+                  "name": "Munich",
+                  "location_id": "187309"
+                },
+                {
+                  "abbrv": null,
+                  "level": "District",
+                  "name": "Upper Bavaria",
+                  "location_id": "1385761"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Bavaria",
+                  "location_id": "187293"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Germany",
+                  "location_id": "187275"
+                }
+              ],
+              "longitude": "11.580725",
+              "latitude": "48.137436",
+              "rating": "5.0",
+              "ranking_data": {
+                "geo_location_id": "187309",
+                "ranking_string": "#2 of 384 hotels in Munich",
+                "geo_location_name": "Munich",
+                "ranking_out_of": "384",
+                "ranking": "2"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d152894-m23924-Sun_Palace-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d152894-Reviews-m23924-Sun_Palace-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 91,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "152894",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d152894-m23924-Sun_Palace-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/152894?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd. Kukulcan Km 20",
+                "street2": "Zona Hotelera",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd. Kukulcan Km 20 Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2015",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2015_L_R-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2015_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Romance"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "3871",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Sun Palace",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.7825",
+              "latitude": "21.044167",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#4 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "4"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d642781-m23924-Hyatt_Zilara_Cancun-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d642781-Reviews-m23924-Hyatt_Zilara_Cancun-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 89,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "642781",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d642781-m23924-Hyatt_Zilara_Cancun-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/642781?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Kukulkan Km 11.5 Hotel Zone",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Kukulkan Km 11.5 Hotel Zone, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [],
+              "num_reviews": "1245",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Hyatt Zilara Cancun",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.75633",
+              "latitude": "21.118929",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#5 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "5"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d152895-m23924-Beach_Palace-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d152895-Reviews-m23924-Beach_Palace-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 91,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "152895",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d152895-m23924-Beach_Palace-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/152895?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Boulevard Kukulcan, Km 11.5, Zona Hotelera",
+                "street2": "",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Boulevard Kukulcan, Km 11.5, Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "3315",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Beach Palace",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.7588",
+              "latitude": "21.113665",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#6 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "6"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d3580898-m23924-NIZUC_Resort_and_Spa-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d3580898-Reviews-m23924-NIZUC_Resort_and_Spa-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 90,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "3580898",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d3580898-m23924-NIZUC_Resort_and_Spa-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/3580898?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd Kukulcan Km 21",
+                "street2": null,
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd Kukulcan Km 21, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "462",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "NIZUC Resort and Spa",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.78804",
+              "latitude": "21.031574",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#7 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "7"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d152680-m23924-Fiesta_Americana_Condesa_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d152680-Reviews-m23924-Fiesta_Americana_Condesa_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 89,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "152680",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d152680-m23924-Fiesta_Americana_Condesa_Cancun_All_Inclusive-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/152680?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Boulevard Kukulkan Km 16.5",
+                "street2": "Zona Hotelera",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Boulevard Kukulkan Km 16.5 Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Traveler's Choice",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/tchotel_2014_L_R-23924-5.png",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/TC_2014_downloadable_L_R-23924-5.jpg"
+                  },
+                  "categories": [
+                    "Hotels"
+                  ],
+                  "display_name": "Traveler's Choice"
+                },
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "4487",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Fiesta Americana Condesa Cancun All Inclusive",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.77311",
+              "latitude": "21.081078",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#8 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "8"
+              }
+            },
+            {
+              "see_all_photos": "http://www.tripadvisor.com/LocationPhotos-g150807-d152681-m23924-Fiesta_Americana_Grand_Coral_Beach_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "web_url": "http://www.tripadvisor.com/Hotel_Review-g150807-d152681-Reviews-m23924-Fiesta_Americana_Grand_Coral_Beach_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "percent_recommended": 90,
+              "location_string": "Cancun, Yucatan Peninsula",
+              "location_id": "152681",
+              "write_review": "http://www.tripadvisor.com/UserReview-g150807-d152681-m23924-Fiesta_Americana_Grand_Coral_Beach_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+              "price_level": "$$$$",
+              "api_detail_url": "http://api.tripadvisor.com/api/partner/2.0/location/152681?key=<TRIPADVISOR_API_KEY>",
+              "address_obj": {
+                "street1": "Blvd Kukulcan Km 9.5 Lote 6",
+                "street2": "Zona Hotelera",
+                "city": "Cancun",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postalcode": "77500",
+                "address_string": "Blvd Kukulcan Km 9.5 Lote 6 Zona Hotelera, Cancun 77500 Mexico"
+              },
+              "category": {
+                "name": "hotel",
+                "localized_name": "Hotel"
+              },
+              "awards": [
+                {
+                  "award_type": "Certificate of Excellence",
+                  "year": "2014",
+                  "images": {
+                    "small": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-23924-5.jpg",
+                    "large": "http://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-23924-5.jpg"
+                  },
+                  "categories": [],
+                  "display_name": "Certificate of Excellence 2014"
+                }
+              ],
+              "num_reviews": "2381",
+              "subcategory": [
+                {
+                  "name": "hotel",
+                  "localized_name": "Hotel"
+                }
+              ],
+              "rating_image_url": "http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-23924-5.png",
+              "name": "Fiesta Americana Grand Coral Beach Resort & Spa",
+              "ancestors": [
+                {
+                  "abbrv": null,
+                  "level": "Municipality",
+                  "name": "Cancun",
+                  "location_id": "150807"
+                },
+                {
+                  "abbrv": null,
+                  "level": "State",
+                  "name": "Quintana Roo",
+                  "location_id": "1575485"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Region",
+                  "name": "Yucatan Peninsula",
+                  "location_id": "150805"
+                },
+                {
+                  "abbrv": null,
+                  "level": "Country",
+                  "name": "Mexico",
+                  "location_id": "150768"
+                }
+              ],
+              "longitude": "-86.76353",
+              "latitude": "21.106888",
+              "rating": "4.5",
+              "ranking_data": {
+                "geo_location_id": "150807",
+                "ranking_string": "#9 of 178 hotels in Cancun",
+                "geo_location_name": "Cancun",
+                "ranking_out_of": "178",
+                "ranking": "9"
+              }
+            }
+          ],
+          "paging": {
+            "previous": null,
+            "skipped": "0",
+            "results": "10",
+            "next": null,
+            "total_results": "10"
+          }
+        }
+    http_version: 
+  recorded_at: Sun, 01 Feb 2015 01:38:53 GMT
+recorded_with: VCR 2.9.3
