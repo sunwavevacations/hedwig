@@ -1,4 +1,5 @@
 module Hedwig
+  # Application-wide configuration for Hedwig. See lib/hedwig.rb for usage.
   class Configuration
     attr_accessor :api_key, :api_uri
 

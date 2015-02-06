@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Award class used in Location JSON coercion.
     class Award
       include Virtus.value_object
 

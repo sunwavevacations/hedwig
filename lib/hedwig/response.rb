@@ -1,8 +1,10 @@
 require 'forwardable'
 
 module Hedwig
+  # Response is essentially a decorator for a Faraday response. It delegates
+  # body and status, but it also has knowledge on what constitutes a successful
+  # request and what to do with the errors passed back from TripAdvisor.
   class Response
-
     extend Forwardable
 
     attr_reader :raw_response
@@ -25,15 +27,14 @@ module Hedwig
     def raise_errors
       case status
       when 401
-        raise AccessDenied.new(body)
+        fail AccessDenied, body
       when 404
-        raise ResourceNotFound.new(body)
+        fail ResourceNotFound, body
       when (400..499)
-        raise ServiceError.new(body)
+        fail ServiceError, body
       when (500..599)
-        raise ServerError.new(body)
+        fail ServerError, body
       end
     end
-
   end
 end

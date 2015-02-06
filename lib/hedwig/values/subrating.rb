@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Subrating class used in Location JSON coercion.
     class Subrating
       include Virtus.value_object
 

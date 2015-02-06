@@ -1,5 +1,10 @@
 module Hedwig
   module Models
+    # This the main data-type returned by TripAdvisor's API. All calls
+    # either return a Location or a Collection of Locations. This class
+    # coerces the returned JSON data into ruby-friendly objects. It also
+    # exposes some convenience methods for retrieving related points of
+    # interest.
     class Location
       include Virtus.model
 
@@ -61,7 +66,6 @@ module Hedwig
       def restaurants(options = {})
         @restaurants ||= Api::Restaurants.by_location(id, options)
       end
-
     end
   end
 end

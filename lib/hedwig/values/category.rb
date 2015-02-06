@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Category class used in Location JSON coercion.
     class Category
       include Virtus.value_object
 

@@ -1,5 +1,7 @@
 module Hedwig
   module Models
+    # This class coerces the pagination data for Collection that is returned by
+    # the API into simple ruby types.
     class Paginator
       include Virtus.model
 

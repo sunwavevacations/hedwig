@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # User class used in Location JSON coercion.
     class User
       include Virtus.value_object
 

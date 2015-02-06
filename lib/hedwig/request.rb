@@ -1,8 +1,11 @@
 require 'addressable/uri'
 
 module Hedwig
+  # A Request instance takes a resource path (e.g. location/1234) and a hash of
+  # options (e.g. { lang: 'en_US' }) ). It is responsible for constructing the
+  # actual uri string, making the client request, and handling the response
+  # errors.
   class Request
-
     attr_reader :resource, :options
 
     def initialize(resource, options = {})
@@ -30,6 +33,5 @@ module Hedwig
         key: Hedwig.config.api_key
       }
     end
-
   end
 end

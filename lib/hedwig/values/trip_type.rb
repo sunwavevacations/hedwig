@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # TripType class used in Location JSON coercion.
     class TripType
       include Virtus.value_object
 

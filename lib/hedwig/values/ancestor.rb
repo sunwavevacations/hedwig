@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Ancestor class used in Location JSON coercion.
     class Ancestor
       include Virtus.value_object
 

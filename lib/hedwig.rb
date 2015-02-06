@@ -6,11 +6,13 @@ require 'hedwig/configuration'
 require 'hedwig/errors'
 require 'hedwig/version'
 
+# Main module definition
 module Hedwig
   autoload :Client,   'hedwig/client'
   autoload :Response, 'hedwig/response'
   autoload :Request,  'hedwig/request'
 
+  # Convenience methods
   module Api
     autoload :Attractions, 'hedwig/api/attractions'
     autoload :Hotels,      'hedwig/api/hotels'
@@ -19,12 +21,14 @@ module Hedwig
     autoload :Restaurants, 'hedwig/api/restaurants'
   end
 
+  # Main return types
   module Models
     autoload :Location,   'hedwig/models/location'
     autoload :Collection, 'hedwig/models/collection'
     autoload :Paginator,  'hedwig/models/paginator'
   end
 
+  # Classes used for response coercion
   module Values
     autoload :Ancestor,     'hedwig/values/ancestor'
     autoload :Award,        'hedwig/values/award'
@@ -47,6 +51,6 @@ module Hedwig
   end
 
   def self.configure
-    yield self.config
+    yield config
   end
 end

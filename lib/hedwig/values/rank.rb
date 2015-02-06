@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Rank class used in Location JSON coercion.
     class Rank
       include Virtus.value_object
 

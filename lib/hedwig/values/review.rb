@@ -1,5 +1,6 @@
 module Hedwig
   module Values
+    # Review class used in Location JSON coercion.
     class Review
       include Virtus.value_object
 
