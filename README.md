@@ -44,13 +44,16 @@ Hedwig.config.api_key = '8a93ka...'
 There are 2 types of models returned by Hedwig API calls: [Location](lib/hedwig/models/location.rb) and [Collection](lib/hedwig/models/collection.rb).
 `Collection`s quack like an array of `Location`s with some additional pagination methods mixed in.
 
-Although TripAdvisor has specific calls for attractions, hotels, and restaurants, they really only return different versions of a `Location`. Each location
-contains a [Category](lib/hedwig/values/category.rb) that describes the type of `Location` returned. 
+Although TripAdvisor has specific calls for attractions, hotels, and restaurants, they really only return different versions of a `Location`. For differentiation,
+each location contains a [Category](lib/hedwig/values/category.rb) that describes the type of `Location` returned.
 
-### Find a Location
+### Locations
 
 
-### Find Attractions, Hotels, and Restaurants
+### Attractions, Hotels, and Restaurants
+
+### Errors
+
 
 ## Contributing
 
